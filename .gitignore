@@ -1,0 +1,15 @@
+# Python-generated files
+py/__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+py/.venv
+*.in
+ts/package.json
+ts/bun.lock
+ts/index.ts
+py/uv.lock
