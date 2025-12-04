@@ -11,8 +11,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import { start } from 'repl';
-
+ 
 function readInput(fname: string = 'test.in'): [number, number][] {
     let ranges :  [number, number][] = [];
     const file_path = path.join(__dirname, fname);
